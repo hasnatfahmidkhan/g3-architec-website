@@ -1,1 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* ===== Start: CSS Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* ===== End: CSS Reset ===== */
+
+/* ===== Start: Theme Section ===== */
+:root {
+  --primary-color: #131313;
+  --seconday-color: #424242;
+  --light-gray: #727272;
+  --primary-bg: rgba(255, 144, 14, 0.1);
+}
+/* ===== End: Theme Section ===== */
+
+/* ===== Start: Same Styling ===== */
+/* ===== Start: Colors ===== */
+.priamary-color {
+  color: var(--primary-color);
+}
+.secondary-color {
+  color: var(--seconday-color);
+}
+.light-gray {
+  color: var(--light-gray);
+}
+.primary-bg {
+  background-color: var(--primary-bg);
+}
+/* ===== End: Colors ===== */
+/* ===== Start: tag styling ===== */
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+/* ===== End: tag styling ===== */
+
+/* ===== Start: Class styling ===== */
+.display-flex {
+  display: flex;
+}
+/* ===== End: Class styling ===== */
+/* ===== End: Same Styling ===== */
+header {
+  padding: 3.125rem;
+}
+/* ===== Start: Header Section ===== */
+/* ===== Start: Navbar Section ===== */
+/* ===== End: Navbar Section ===== */
+.navbar {
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-brand {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.nav-items {
+  gap: 3rem;
+}
+
+.nav-link {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+/* ===== End: Header Section ===== */
