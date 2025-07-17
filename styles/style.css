@@ -14,6 +14,7 @@
   --seconday-color: #424242;
   --light-gray: #727272;
   --primary-bg: rgba(255, 144, 14, 0.1);
+  --btn-primary: #ff900e;
 }
 /* ===== End: Theme Section ===== */
 
@@ -42,22 +43,32 @@ li {
   list-style: none;
 }
 /* ===== End: tag styling ===== */
-
+.max-width {
+  max-width: 1440px;
+}
 /* ===== Start: Class styling ===== */
 .display-flex {
   display: flex;
 }
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--btn-primary);
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
 /* ===== End: Class styling ===== */
 /* ===== End: Same Styling ===== */
 header {
-  padding: 3.125rem;
+  padding-top: 3.125rem;
 }
 /* ===== Start: Header Section ===== */
 /* ===== Start: Navbar Section ===== */
-/* ===== End: Navbar Section ===== */
 .navbar {
   justify-content: space-between;
-  max-width: 1440px;
   margin: 0 auto;
   align-items: center;
 }
@@ -75,4 +86,31 @@ header {
   font-size: 1.125rem;
   font-weight: 500;
 }
+/* ===== End: Navbar Section ===== */
+/* ===== Start: Banner Section ===== */
+.banner {
+  margin: 100px auto;
+}
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-title {
+  font-weight: 800;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner-description {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.banner-img-container .banner-img {
+  width: 100%;
+  margin: 1.5rem;
+}
+/* ===== End: Banner Section ===== */
 /* ===== End: Header Section ===== */
