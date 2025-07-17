@@ -20,7 +20,10 @@
 
 /* ===== Start: Same Styling ===== */
 /* ===== Start: Colors ===== */
-.priamary-color {
+.second-primary-color {
+  color: var(--btn-primary);
+}
+.primary-color {
   color: var(--primary-color);
 }
 .secondary-color {
@@ -45,6 +48,7 @@ li {
 /* ===== End: tag styling ===== */
 .max-width {
   max-width: 1440px;
+  margin: 0 auto;
 }
 /* ===== Start: Class styling ===== */
 .display-flex {
@@ -71,7 +75,6 @@ header {
 /* ===== Start: Navbar Section ===== */
 .navbar {
   justify-content: space-between;
-  margin: 0 auto;
   align-items: center;
 }
 
@@ -116,3 +119,34 @@ header {
 }
 /* ===== End: Banner Section ===== */
 /* ===== End: Header Section ===== */
+
+/* ===== Start: Main Section ===== */
+/* ===== Start: Quick Features Section ===== */
+.quick-features {
+  align-items: center;
+  gap: 4.5rem;
+  margin: 30px 0;
+}
+
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.team-img-container img {
+  width: 100%;
+}
+
+.quick-features-content {
+  max-width: 540px;
+}
+.quick-feature-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.quick-feature-subtitle {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+/* ===== End: Quick Features Section ===== */
+/* ===== End: Main Section ===== */

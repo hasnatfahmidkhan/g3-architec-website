@@ -20,4 +20,34 @@
     margin-bottom: 1rem;
   }
   /* ===== End: Header Section ===== */
+  /* ===== Start: Main Section ===== */
+  .quick-features {
+    flex-direction: column;
+  }
+  .team-img-container {
+    grid-template-columns: 1fr;
+  }
+  .quick-features-content {
+    text-align: center;
+    padding: 1rem;
+  }
+  .quick-feature-title {
+    font-size: 2rem;
+  }
+  /* ===== End: Main Section ===== */
 }
+
+/* ===== Start: Tablet Devices ===== */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .quick-features {
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 3rem;
+    margin: 0;
+  }
+  .quick-features-content {
+    align-self: self-start;
+    margin-left: 4.5rem;
+  }
+}
+/* ===== End: Tablet Devices ===== */
