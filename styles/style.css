@@ -63,7 +63,9 @@ li {
 /* ===== End: Class styling ===== */
 /* ===== End: Same Styling ===== */
 header {
-  padding-top: 3.125rem;
+  padding: 3.125rem 3rem 0 3rem;
+  /* padding-left: 3rem;
+  padding-right: 3rem; */
 }
 /* ===== Start: Header Section ===== */
 /* ===== Start: Navbar Section ===== */
@@ -110,7 +112,7 @@ header {
 
 .banner-img-container .banner-img {
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 /* ===== End: Banner Section ===== */
 /* ===== End: Header Section ===== */
