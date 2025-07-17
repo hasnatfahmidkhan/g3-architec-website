@@ -1,0 +1,7 @@
+@media screen and (max-width: 576px) {
+    /* ===== Start: Header Section ===== */
+    header {
+        padding: 0 1rem;
+    }
+    /* ===== End: Header Section ===== */
+}
