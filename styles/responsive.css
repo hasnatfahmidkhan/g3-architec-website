@@ -1,7 +1,19 @@
 @media screen and (max-width: 576px) {
-    /* ===== Start: Header Section ===== */
-    header {
-        padding: 0 1rem;
-    }
-    /* ===== End: Header Section ===== */
+  /* ===== Start: Same Style ===== */
+  .nav-items{
+    flex-direction: column;
+    gap: .6rem;
+  }
+  /* ===== End: Same Style ===== */
+  /* ===== Start: Header Section ===== */
+  header {
+    padding: 0 1rem;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  /* ===== End: Header Section ===== */
 }
